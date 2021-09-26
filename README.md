@@ -12,4 +12,4 @@ PACKAGES INSTALLED:
 1. OpenCV
 2. Mediapipe
 3. Pyserial
-4. HandtrackingModule io
+4. HandtrackingModule 
