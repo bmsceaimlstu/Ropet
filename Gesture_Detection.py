@@ -104,7 +104,7 @@ if __name__=='main_':
             cv2.putText(img, "Fingers = "+str(totalFingers), (100, 120), cv2.FONT_HERSHEY_PLAIN,3, (0, 0, 255), 5)
             cv2.putText(img, "Action = "+str(Disp_text), (100, 170), cv2.FONT_HERSHEY_PLAIN,3, (0, 0, 255), 5)
 
-            # Add delay library 
+            # Adding delay library 
             if totalFingers_prev != totalFingers:
                 check=check+1
                 
