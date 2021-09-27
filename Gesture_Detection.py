@@ -147,5 +147,4 @@ if __name__=='main_':
 
     cv2.destroyAllWindows()
     cap.release()
-    #push check 123
     
