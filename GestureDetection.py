@@ -67,13 +67,13 @@ if __name__=='main_':
                 
                 if length>180:
                     Speed="HIGH"
-                    Speed_Text="H"
+                    Speed_Text="9"
                 if length>95 and length<180:
                     Speed="MEDIUM"
-                    Speed_Text="M"
+                    Speed_Text="8"
                 if length<95:
                     Speed="LOW"
-                    Speed_Text="L"
+                    Speed_Text=""
             if totalFingers == 0:
                 Disp_text="STOPPING"
             if totalFingers == 1:
@@ -83,15 +83,11 @@ if __name__=='main_':
             if totalFingers == 3:
                 if fingers==[1,1,0,0,1]:
                     totalFingers = 6
-                    Disp_text = "GRASS TRIMMER ON"
+                    Disp_text = "GRASS TRIMMER ON/OFF"
                 else:
                     Disp_text="TURNING RIGHT"
             if totalFingers == 4:
-                if fingers==[1,1,1,0,1]:
-                    totalFingers = 7
-                    Disp_text = "GRASS TRIMMER OFF"
-                else:
-                    Disp_text="TURNING LEFT"
+                Disp_text="TURNING LEFT"
             if totalFingers == 5:
                 Disp_text="SPINNING 360"
             if totalFingers!=2:
