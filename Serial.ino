@@ -6,7 +6,7 @@ void setup() {
   Bluetooth.begin(9600);
   Serial.begin(9600);
   Serial.println("Waiting for command...");
-  Bluetooth.println("Send 1 to turn on the LED. Send 0 to turn Off");
+
   pinMode(2,OUTPUT);
   pinMode(3,OUTPUT);
   pinMode(4,OUTPUT);
